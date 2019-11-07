@@ -70,8 +70,27 @@ li a {
     margin: 0 15px 15px 0;
 }
 
+/*Placing a margin between the photos on the portfolio page*/
 .rowmargin {
     margin-top: 20px;
+}
+
+img:hover {
+    opacity: 50%;
+}
+
+/*Creating links ontop of the portfolio images*/
+.portfoliopicture {
+    position: relative;
+}
+
+.portfoliolink {
+    background-color: #4aaaa5;
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    text-decoration: none;
 }
 
 /*Adding a sticky footer to the bottom of the page*/
@@ -86,4 +105,15 @@ footer {
     text-align: center;
     color: #ffffff;
     padding-top: 20px;
+}
+
+/*Removes padding and navbar float making information take up the whole screen and align navbar below portfolio name*/
+@media screen and (max-width:576px) {
+    .content {
+        padding: 0;
+    }
+
+    .navbarcustom {
+        float: none;
+    }
 }
