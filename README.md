@@ -18,11 +18,11 @@ The contact page is built to allow a message form submission to the author or an
 
 Bootstrap
 
-#Authors
+# Authors
 
 Edward Coad
 
-#Acknowledgments
+# Acknowledgments
 
 bootstrap.com
 w3schools.com
