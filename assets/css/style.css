@@ -90,6 +90,15 @@ img:hover {
     position: absolute;
     bottom: 10%;
     width: 100%;
+}
+
+/*Changing text color and decoration of portfolio links*/
+.contentlinks {
+    color: white;
+}
+
+.contentlinks:hover {
+    color: #777777;
     text-decoration: none;
 }
 
@@ -115,5 +124,9 @@ footer {
 
     .navbarcustom {
         float: none;
+    }
+
+    .rowmargin {
+        margin-top: 0px;
     }
 }
