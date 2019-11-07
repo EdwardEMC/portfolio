@@ -129,4 +129,17 @@ footer {
     .rowmargin {
         margin-top: 0px;
     }
+
+    .nav {
+        justify-content: center;
+    }
+
+    .navbarcustom {
+        padding-top: 0px;
+    }
+
+    .profilename {
+        width: 100%;
+        text-align: center;
+    }
 }
