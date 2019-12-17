@@ -82,6 +82,7 @@ img:hover {
 /*Creating links ontop of the portfolio images*/
 .portfoliopicture {
     position: relative;
+    border: 2px solid grey;
 }
 
 .portfoliolink {
