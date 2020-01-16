@@ -2,7 +2,7 @@
 A responsive website portfolio in parallax format featuring an about me section, an experience section including a timeline, a portfolio section with interactive topic images/links and a contact section complete with a message form.
 
 # Getting Started
-The index section shows the majority of the information nessecary about the candidate in question. As a responsive layout the text field will decrease in width as the height of the element grows to accomodate the text wrapping around the profile picture. At the predetermined screen size (576px) the padding/margin for the content boxes is removed in order to give mobile users the full use of their screens.
+The index section shows the majority of the information nessecary about the candidate in question. As a responsive layout the text field will decrease in width as the height of the element grows to accomodate the text wrapping around the profile picture. At the predetermined screen size (600px) the padding/margin for the content boxes is removed in order to give mobile users the full use of their screens.
 
 ![about.section](/assets/images/aboutmeSS.png?raw=true "about.section") 
 
