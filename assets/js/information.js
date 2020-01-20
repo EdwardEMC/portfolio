@@ -28,11 +28,11 @@ const images = [ //information to do with the portfolio
             text: "An app to find a set of recipes based off a single ingredient. The search input takes in an ingredient and then displays 10 recipe options and an image relating to the recipe. The 10 options are displayed as buttons, clicking on one will display the recipe name, ingredients and cooking process. That specific recipe will be added as a button below the search area whilst also being saved to the local storage so that it can easily be accessed at a later time. On reload of the page, all past searches will be displayed as buttons below the search area. If a specific recipe is re-searched, an additional button will not be added, only one button with that value will exist. Clicking the clear button will clear all previous search buttons as well as the local storage and refresh the page resulting in a �new� application interface."
     }],
     [{
-            title: "",
-            url: "assets/images/underConst.png", 
-            href: "",
-            repo: "",
-            text: ""
+            title: "Team Template Engine",
+            url: "assets/images/tte.jpg", 
+            href: "https://github.com/EdwardEMC/templateEngine",
+            repo: "https://github.com/EdwardEMC/templateEngine",
+            text: "A node.js application to dynamically create an engineering team based on user inputs. A team would consist of one manager and any number of engineers or interns. Each team member will have thier name, Idenitificaion number and email address recorded along with a unqiue piece of information for each relating role, i.e Team manager - office number, Engineer - github account and Intern - school. The user will be prompted in the order of manager, engineers and then interns. At the end of each engineer or intern input the user will be asked if they want to add another member of that role, selecting no will move to the next role or finish the input depending on where they are at. Each of the inputs are validated upon entry and will not allow incorrect answers, i.e numbers in names, email format etc. If an incorrect answer is given the user is prompted to input a valid one. After the user has enter all the relavent information for each team member the application will produce a html file displaying each team member in thier own personal info card."
         },
         {
             title: "",

@@ -114,6 +114,7 @@ $(document).ready(function() {
         initial()
     });
 
+    
     open.on("click", () => window.open(images[x][y].href, "_blank"));
     openR.on("click", () => window.open(images[x][y].repo, "_blank"));
 
