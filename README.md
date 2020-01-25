@@ -29,7 +29,7 @@ JQuery
 
 # Authors
 
-Edward Coad
+Edward Michael Coad
 
 # Acknowledgments
 
