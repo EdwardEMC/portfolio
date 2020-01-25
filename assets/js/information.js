@@ -22,9 +22,9 @@ const images = [ //information to do with the portfolio
         }, 
         {
             title: "Recipe Finder",
-            url: "assets/images/fantasticRecipeFinder.jpg", 
-            href: "https://edwardemc.github.io/project1/",
-            repo: "https://github.com/EdwardEMC/project1",
+            url: "assets/images/recipeFinder.jpg", 
+            href: "https://edwardemc.github.io/recipeFinder",
+            repo: "https://github.com/EdwardEMC/recipeFinder",
             text: "An app to find a set of recipes based off a single ingredient. The search input takes in an ingredient and then displays 10 recipe options and an image relating to the recipe. The 10 options are displayed as buttons, clicking on one will display the recipe name, ingredients and cooking process. That specific recipe will be added as a button below the search area whilst also being saved to the local storage so that it can easily be accessed at a later time. On reload of the page, all past searches will be displayed as buttons below the search area. If a specific recipe is re-searched, an additional button will not be added, only one button with that value will exist. Clicking the clear button will clear all previous search buttons as well as the local storage and refresh the page resulting in a �new� application interface."
     }],
     [{
