@@ -125,21 +125,24 @@ $(document).ready(function() {
         initial(x);
     });
 
-    //on click to open the advanced search modal
+    //on click to open the modal
     modalSel.on("click", () => {
         modal.css("display", "block");
+        // if(images[x][y].url==="") { not working!!!!!!
+            // open.attr("display", "none");
+        // }
         $(".modalPic").attr({
             src: images[x][y].url,
         });
         $(".modalPic").attr("style", "max-width:300px; max-height:300px;"); 
     });
 
-    $(document).click(function(event) {
-        //if you click on anything except the modal itself or the "open modal" link, close the modal
-        if (!$(event.target).closest(modal).length) {
-          $("body").find(".modal").removeClass("visible");
-        }
-    });
+    // $(document).click(function(event) {
+    //     //if you click on anything except the modal itself or the "open modal" link, close the modal
+    //     if (!$(event.target).closest(modal).length) {
+    //       $("body").find(".modal").removeClass("visible");
+    //     }
+    // });
 
     //clicking the x button will close the modal
     span.on("click", () => modal.css("display", "none"));
